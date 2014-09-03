@@ -1,0 +1,1 @@
+jQuery(function($){$(document).ready(function($){$('.navbar-nav li .dropdown-menu li a').click(function(){if($('.navbar-nav li .dropdown-menu li').hasClass('open')){$(this).parent().parent().parent().addClass('open');}});});});

@@ -10,6 +10,8 @@ Template Name: Homepage
 
 				<div class="container">
 
+					<?php echo do_shortcode( '[layerslider id="2"]' ) ?>
+
 					<div class="col-sm-8">
 
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
