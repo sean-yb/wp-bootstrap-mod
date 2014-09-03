@@ -35,9 +35,15 @@
 	
 	<body <?php body_class(); ?>>
 
+		<header id="header">
+
+
+
+		</header>
+
 		<div role="banner">
 				
-			<div class="navbar navbar-default navbar-fixed-top">
+			<div class="navbar navbar-default">
 
 				<div class="container">
           
@@ -62,7 +68,7 @@
 
 						<?php //if(of_get_option('search_bar', '1')) {?>
 
-						<form class="navbar-form navbar-right" role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
+						<!--<form class="navbar-form navbar-right" role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
 
 							<div class="form-group">
 
@@ -70,7 +76,7 @@
 
 							</div>
 
-						</form>
+						</form>-->
 
 						<?php //} ?>
 

@@ -258,95 +258,95 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333333;
-  background-color: #333333;
+  color: #555555;
+  background-color: #eeeeee;
 }
 #main .container {
   background-color: #ffffff;
 }
-footer {
+footer#footer {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
   color: #777777;
   border-top: 1px solid #e7e7e7;
 }
-footer .navbar-brand {
+footer#footer .navbar-brand {
   color: #777777;
 }
-footer .navbar-brand:hover,
-footer .navbar-brand:focus {
+footer#footer .navbar-brand:hover,
+footer#footer .navbar-brand:focus {
   color: #5e5e5e;
   background-color: transparent;
 }
-footer .navbar-text {
+footer#footer .navbar-text {
   color: #777777;
 }
-footer .navbar-nav > li > a {
+footer#footer .navbar-nav > li > a {
   color: #777777;
 }
-footer .navbar-nav > li > a:hover,
-footer .navbar-nav > li > a:focus {
+footer#footer .navbar-nav > li > a:hover,
+footer#footer .navbar-nav > li > a:focus {
   color: #333333;
   background-color: transparent;
 }
-footer .navbar-nav > .active > a,
-footer .navbar-nav > .active > a:hover,
-footer .navbar-nav > .active > a:focus {
+footer#footer .navbar-nav > .active > a,
+footer#footer .navbar-nav > .active > a:hover,
+footer#footer .navbar-nav > .active > a:focus {
   color: #555555;
   background-color: #e7e7e7;
 }
-footer .navbar-nav > .disabled > a,
-footer .navbar-nav > .disabled > a:hover,
-footer .navbar-nav > .disabled > a:focus {
+footer#footer .navbar-nav > .disabled > a,
+footer#footer .navbar-nav > .disabled > a:hover,
+footer#footer .navbar-nav > .disabled > a:focus {
   color: #cccccc;
   background-color: transparent;
 }
-footer .navbar-toggle {
+footer#footer .navbar-toggle {
   border-color: #dddddd;
 }
-footer .navbar-toggle:hover,
-footer .navbar-toggle:focus {
+footer#footer .navbar-toggle:hover,
+footer#footer .navbar-toggle:focus {
   background-color: #dddddd;
 }
-footer .navbar-toggle .icon-bar {
+footer#footer .navbar-toggle .icon-bar {
   background-color: #cccccc;
 }
-footer .navbar-collapse,
-footer .navbar-form {
+footer#footer .navbar-collapse,
+footer#footer .navbar-form {
   border-color: #e7e7e7;
 }
-footer .navbar-nav > .open > a,
-footer .navbar-nav > .open > a:hover,
-footer .navbar-nav > .open > a:focus {
+footer#footer .navbar-nav > .open > a,
+footer#footer .navbar-nav > .open > a:hover,
+footer#footer .navbar-nav > .open > a:focus {
   background-color: #e7e7e7;
   color: #555555;
 }
 @media (max-width: 767px) {
-  footer .navbar-nav .open .dropdown-menu > li > a {
+  footer#footer .navbar-nav .open .dropdown-menu > li > a {
     color: #777777;
   }
-  footer .navbar-nav .open .dropdown-menu > li > a:hover,
-  footer .navbar-nav .open .dropdown-menu > li > a:focus {
+  footer#footer .navbar-nav .open .dropdown-menu > li > a:hover,
+  footer#footer .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #333333;
     background-color: transparent;
   }
-  footer .navbar-nav .open .dropdown-menu > .active > a,
-  footer .navbar-nav .open .dropdown-menu > .active > a:hover,
-  footer .navbar-nav .open .dropdown-menu > .active > a:focus {
+  footer#footer .navbar-nav .open .dropdown-menu > .active > a,
+  footer#footer .navbar-nav .open .dropdown-menu > .active > a:hover,
+  footer#footer .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #555555;
     background-color: #e7e7e7;
   }
-  footer .navbar-nav .open .dropdown-menu > .disabled > a,
-  footer .navbar-nav .open .dropdown-menu > .disabled > a:hover,
-  footer .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+  footer#footer .navbar-nav .open .dropdown-menu > .disabled > a,
+  footer#footer .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  footer#footer .navbar-nav .open .dropdown-menu > .disabled > a:focus {
     color: #cccccc;
     background-color: transparent;
   }
 }
-footer .navbar-link {
+footer#footer .navbar-link {
   color: #777777;
 }
-footer .navbar-link:hover {
+footer#footer .navbar-link:hover {
   color: #333333;
 }
 input,
@@ -371,7 +371,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857143;
-  background-color: #333333;
+  background-color: #eeeeee;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -1482,7 +1482,7 @@ th {
   border-top: 2px solid #dddddd;
 }
 .table .table {
-  background-color: #333333;
+  background-color: #eeeeee;
 }
 .table-condensed > thead > tr > th,
 .table-condensed > tbody > tr > th,
@@ -1908,7 +1908,7 @@ textarea.input-lg {
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #737373;
+  color: #959595;
 }
 @media (min-width: 768px) {
   .form-inline .form-group {
@@ -3536,7 +3536,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   color: #555555;
-  background-color: #333333;
+  background-color: #eeeeee;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -3582,7 +3582,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .nav-tabs.nav-justified > .active > a,
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: #333333;
+    border-bottom-color: #eeeeee;
   }
 }
 .nav-pills > li {
@@ -3650,7 +3650,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .nav-tabs-justified > .active > a,
   .nav-tabs-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus {
-    border-bottom-color: #333333;
+    border-bottom-color: #eeeeee;
   }
 }
 .tab-content > .tab-pane {
@@ -3667,7 +3667,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
   border: 1px solid transparent;
   zoom: 1;
 }
@@ -4479,7 +4478,7 @@ a.list-group-item.active > .badge,
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857143;
-  background-color: #333333;
+  background-color: #eeeeee;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -4500,7 +4499,7 @@ a.thumbnail.active {
 }
 .thumbnail .caption {
   padding: 9px;
-  color: #333333;
+  color: #555555;
 }
 .alert {
   padding: 15px;
